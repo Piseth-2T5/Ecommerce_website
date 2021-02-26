@@ -1,0 +1,280 @@
+.product-categary-and-feature{
+    order: 3;
+    display: flex;
+    margin-top: 30px;
+    height: 1200px;
+}
+.product-categary{
+    display: flex;
+    flex-direction: column;
+    flex: 0.6;
+    margin: 90px 0 0 1%;
+}
+.cat-link{
+    display: flex;
+    align-items: center;
+    margin-left:  15px;
+}
+.cat-link p{
+    font-weight: 800;
+    font-size: 1.2rem;
+    opacity: 0.5;
+}
+.product-categary img{
+    width: 60px;
+}
+.product-feature-detail{
+    flex: 2;
+    background-color: rgb(238, 248, 248);
+    height: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.product-feature-container{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.product-feature-image{
+    display:flex;
+    height: 280px;
+    border: 4px rgb(180, 180, 180) solid;
+}
+.image{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 0px 4px -4px gray;
+}
+.percentage{
+    order: 1;
+    position: relative;
+    left: 120px; bottom: 235px;
+    background:none;
+}
+.percentage p{
+    width: 50px; 
+    text-align: center;
+    background-color: orange;
+    border-radius: 5px;
+}
+.big-image{
+    width: 150px;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+}
+.big-image img{
+    width: 122px;
+}
+.small-image{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.small-image img{
+   width: 45px;
+   box-shadow: 0 0 1px 2px gray;
+}
+.product-detail{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 40px;
+}
+.product-name-and-price{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.product-name-and-price h2{
+    order: 0;
+    width: 400px;
+    background-color: gray;
+    font-size: 20px;
+    text-align: left;
+}
+.product-name-and-price .full-price{
+    order: 1;
+    margin-left: 120px;
+    color: red;
+    text-decoration: line-through;
+    width: 40px;
+    border-radius: 3px;
+}
+.product-name-and-price .disc-price{
+    order: 2;
+    margin-left: 10px;
+    color: rgb(0, 255, 34);
+    width: 40px;
+    border-radius: 3px;
+}
+.product-detail p{
+    width: 80%;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.product-detail .cart{
+    width: 90px;
+    text-align: center;
+    border: 2px black solid;
+    box-shadow: 2px 2px 0px black;
+}
+.product-detail .product-tag{
+    display: flex;
+    text-align: left;
+    width: 70%;
+}
+.product-tag button{
+    margin-right: 30px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    border: none;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* justify-content: space-between; */
+}
+.review .comment{
+    margin: 40px 0 20px 0;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.comments .comments-user{
+    text-align: left;
+    border: 4px gray solid;
+    padding: 20px;
+    width: 100%;
+}
+.comments-wrap{
+    width: 90%;
+}
+.comment p{
+    font-size: 0.6em;
+}
+.profile-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 0 20px 0 ;
+    font-size: 14px;
+}
+.profile-user img{
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: inline-block;
+    margin-right: 10px;
+}
+.profile-user .name{
+    color: blue;
+    /* margin-top: 5px; */
+}
+.profile-user .date{
+    opacity: 0.5;
+    /* margin-bottom: 5px; */
+}
+.deleteBtn{
+    position: relative; right: -1100px; top: -20px;
+}
+.deleteBtn:hover{
+    transform: scale(1.2);
+}
+.deleteBtn button{
+    outline: none;
+    color: red;
+    font-size: 15px;
+    border: none;
+    background:none;
+}
+.message{
+    text-align: center;
+    align-items: center;
+}
+.message fieldset{
+    border: 2px black solid;
+    height: 200px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.message textarea{
+    resize: none;
+    outline: none;
+    border: none;
+    background: none;
+    width: 100%;height: 100% ;
+    background-color: rgb(241, 239, 235);
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    font-size: 0.6em;
+}
+.message button{
+    width: 150px;
+    height: 30px;
+    position: relative;right: 0;bottom: 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0 black;
+    outline: none;
+    z-index: 100;
+    font-size: 20px;
+}
+.message button:hover{
+    transform: scale(1.1);
+}
+button .sign{
+    width: 40px;
+    text-align: left;
+}
+.send{
+    color: white;
+    background-color: green;
+}
+
+
+.discard{
+    color:black;
+    background-color: rgb(255, 255, 255);
+}
+.go-back{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.go-back button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(129, 240, 255);
+}
+.go-back button:hover{
+    transform: scale(1.2);
+    border:2px yellow solid;
+}
+.go-back a{
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+.space-for-header{
+    height: 20px;
+    width: 90%;
+}

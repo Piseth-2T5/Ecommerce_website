@@ -1,0 +1,52 @@
+.container-content{
+    width: 520px;
+    margin: 200px auto auto auto;
+}
+.container-btn-signUp{
+    width: 505px;
+    margin:0 auto 10px auto;
+}
+.btn-signUp{
+    width: 505px; height: 30px;
+    margin-top: 5px;
+    font-size: .8rem;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: .1px .1px 2px .1px gray;
+}
+.form-container{
+    width: 505px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 1px 1px 10px 1px gray;
+    border-radius: 5px;
+}
+.paragraph{
+    margin: 10px 0 0 0;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.input-text-grid{
+    font-size: .8rem;
+    width: 200px; height: 25px;
+    border:0.5px solid rgb(129, 129, 129);
+    border-radius: 5px;
+    outline-color: rgb(255, 242, 172);
+}
+.input-text{
+    font-size: .8rem;
+    width: 500px; height: 25px;
+    border:0.5px solid rgb(129, 129, 129);
+    border-radius: 5px;
+    outline-color: rgb(255, 242, 172);
+}
+#btn-sign{
+    width: 70px; height: 20px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin: 5px auto 5px auto;
+}

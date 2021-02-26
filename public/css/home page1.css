@@ -1,0 +1,117 @@
+.content{
+    width: 100%;;
+}
+.background img{
+    z-index: -1;
+    width: 100%;
+}
+.rectiangle{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    background:transparent;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+.col1{ /*! element inside each rectiangle*/
+    font-size: 12px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 0 0 5%
+
+}
+.pink{/*================================================*/
+    width: 390px; height: 190px;
+    background: pink;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+}
+.pink img{
+    width: 88px; height: 88px;
+}
+.orange{/*================================================*/
+    width: 390px; height: 190px;
+    background: orange;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+}
+.orange img{
+    width: 88px; height: 88px;
+}
+.orchid{ /*================================================*/
+    width: 390px; height: 190px;
+    background: orchid;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+}
+.orchid img{
+    width: 88px; height: 88px;
+}
+.col1 h2{
+    color: white;
+    margin: 0 0 0 25px;
+    font-size: 20px;
+}
+.col1 p{
+    color: white;
+    font-size: 12px;
+    margin: 0 0 0 25px;
+}
+.col1 h3{
+    border: 2px solid;
+    box-shadow: 3px 3px black;
+    margin: 30px 0 0 25px;
+    padding: 5px;
+    width: 130px;
+    text-align: center;
+    font-size: 13px;
+    background: white;
+}
+@media(max-width:1230px){
+    .rectiangle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background:transparent;
+    }
+    .col1{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .col1 h3{
+        order: 0;
+        margin: 0 20px 0 0;
+    }
+    .col1 p,h2{
+        order: 3;
+    }
+    .pink{
+        justify-content: center;
+        width: 90%; height: 100px;
+        border-radius: 30px;
+        margin: 0 0 10px 0;
+
+    }
+    .orange{
+        justify-content: center;
+        width: 90%; height: 100px;
+        border-radius: 30px;
+        margin: 0 0 10px 0;
+    }
+    .orchid{
+        justify-content: center;
+        width: 90%; height: 100px;
+        border-radius: 30px;
+        margin: 0 0 10px 0;
+
+    }
+}
+

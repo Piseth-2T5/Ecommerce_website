@@ -1,0 +1,13 @@
+#view-product-detail button{
+    background-color: aqua;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 90px;
+    height: 25px;
+    box-shadow: 2px 2px 5px 2px  black;
+}
+#view-product-detail button:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}

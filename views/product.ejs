@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="../css/home page.css">
+    <link rel="stylesheet" href="../css/home page1.css">
+    <link rel="stylesheet" href="../css/home page2.css">
+    <link rel="stylesheet" href="../css/product page.css">
+    <script src="https://kit.fontawesome.com/c6e96a54ed.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="product-feature-detail">
+        <div class="product-feature-container">
+            <div class="product-feature-image">
+                <div class="image">
+                    <span class="percentage">
+                        <p>20%</p>
+                    </span>
+                    <div class="big-image">
+                        <img src="../asset/image/clothes (1).png" alt="">
+                    </div>
+                    <div class="small-image">
+                        <img src="../asset/image/clothes (1).png" alt="">
+                        <img src="../asset/image/clothes (1).png" alt="">
+                        <img src="../asset/image/clothes (1).png" alt="">
+                    </div>
+                </div>
+                <div class="product-detail">
+                    <div class="product-name-and-price">
+                        <h2>White T-Shirt - Nike</h2>
+                        <span class="full-price">$15</span>
+                        <span class="disc-price">$12</span>
+                    </div>
+                    <p>Nike Womens Pink Half Zip Lighweight Hooded Shirt Top Athlec Stretch Size M</p>
+                    <span class="cart"><i class="fas fa-shopping-cart"></i> Cart</span>
+                    <div class="product-tag">
+                        <button>Male T-Shirt</button>
+                        <button>Signle color</button>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div class="comment" id="parent-comments">Comments
+                    <div class="message">
+                        <form action="/post" method="POST">
+                            <fieldset>
+                                <textarea name="message"  cols="104" rows="10" placeholder="express your feedback to us..."></textarea>
+                            </fieldset>
+                            <button type ="submit" class="send" id="btnSend">Send <i class="fas fa-arrow-circle-right"></i></button>
+                            <button type = "submit" class = "discard">Discard <i class="fas fa-times"></i></button>
+                        </form>
+                    </div>
+                    <div class="comments" id="comments">
+                       <!-- load all command from database (code in home.js) -->
+                    </div>
+                </div>
+                <div class="go-back">
+                    <form action="/" method="GET">
+                        <button type="submit">Previous</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+header{
+    position: absolute;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 90%;
+}
+.logo-container{
+    display: flex;
+    flex-grow: 1;
+    font-size: 28px;
+}
+.color{
+    color: green;
+}
+.nav-links{  
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    flex-grow: 1;
+}
+h3 i{
+    background-color: black;
+    color: white;
+}
+h3.nav-link{
+    font-size: 13px;
+    font-weight: 800;
+    padding: 3px;
+    margin: 0 0 0 5px;
+    border: 1px solid;
+    box-shadow: 2px 2px black;
+}
+.intro-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    padding-top: 20%;
+    top: 60px;
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+.intro-text h1{
+    font-size: 2em;
+}
+.intro-text p{
+    font-size: 1em;
+    opacity: 0.5;
+    padding: 0;
+}
+.search-bar{
+    border: rgb(243, 243, 243) 2px solid;
+    background-color: rgb(243, 243, 243);
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 394px; height: 30px;
+    margin: 30px auto 0 auto;
+}
+.search-bar input{
+    width: 280px ;
+    background-color: transparent;
+    border: 0px solid;
+    outline: none;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.search-bar img{
+    width: 20px;
+    height: 15px;
+    margin: 0 10px 0 8px;
+}
+
+@media (max-width: 900px){
+    .intro-text {
+        font-size: 16px;
+    }
+    .search-bar{
+      
+        margin-top: 20px;
+    }
+}
+@media (max-width: 700px){
+    .intro-container{
+        padding-top: 10%;
+    }
+    .intro-text{
+        font-size: 10px;
+        
+    }
+    .search-bar{
+        width: 250px; height: 20px;
+    }
+    .search-bar input{
+        font-size: 13px;
+    }
+}
